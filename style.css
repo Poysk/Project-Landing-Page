@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  background-color: #1f2937;
+  font-size: 18px;
+  
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.nav-list li a{
+  color: #E5E7EB;
+}
+
+.navbar {
+  margin-right: 20%;
+}
+
+.header-logo {
+margin-left: 20%;  
+color: #E5E7EB;
+}
+
+.section1 {
+  background-color: #1f2937;
+  height: 25rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+
+
+.text1 {
+  
+  height: 15%;
+  width:  15%;
+  background: white;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1f2937;
+  z-index: 1;
+  margin-right: -3rem;
+  margin-bottom: 8rem;
+  
+}
+
+.imageplaceholder {
+width: 25rem;
+height: 15rem;
+  background-color: #F9FAF8;
+  margin-left: -3rem;
+  
+}
+
+.headertext {
+
+  color: #F9FAF8;
+}
+
+p {
+  margin-top: 1rem;
+  color: #E5E7EB;;
+
+}
+
+.firstbutton {
+  background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+    margin-top: 1rem;
+}
+
+
+.section2 h3 {
+text-align: center;
+margin-top: 2rem;
+font-size: 36px;
+margin-bottom: 2rem;
+margin-top: 2rem;
+}
+
+.placeholderboxes {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3em 0 8em 0;
+  height: 17rem;
+	}
+
+.box {
+  border: 4px solid #3882F6;
+  margin-left: 2rem;
+  width: 12em;
+  height: 12em;
+  border-radius: 10%;
+  display: block;
+}
+
+.box p {
+  text-align: center;;
+  margin-top: 12em;
+color: black;
+}
+
+.placeholderboxes div {
+  display: flex;
+  flex-direction: column;
+}
+
+.overviewfont h3{
+  font: italic bold 36px/1.5 "Times New Roman", serif;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E1E7EB;
+  height: 25rem;
+  text-align: center;
+}
+
+.section3 p {
+color: #1F2937;
+font-size: 36px;
+font-style: light italic;
+width: 20em;
+position: relative;
+}
+
+.signature {
+  position: absolute;
+  margin-left: 30rem;
+}
+
+footer {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  width: 100%;
+  height: 6rem;
+}
+
+.section4 {
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.signupsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3882F6;
+  height: 8rem;
+  width: 30%;
+}
+
+
+.signupsection p {
+  color: white;
+}
+
+.signupbutton button {
+  background-color: #3882F6;
+  border-color: whitesmoke;
+  border-radius: 10px;
+  color: #F9FAF8;
+  padding: 0;
+  width: 100px;
+  height: 30px;
+  margin-top: 1rem;
+  
+}
